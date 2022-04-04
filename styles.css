@@ -1,0 +1,185 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.background-image {
+    background-image: url("./WEBSITE-BANNER.png");
+    width: 100%;
+    height: 45vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.background-image>#sticker1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 23vw;
+    left: 40vw;
+}
+
+.background-image>#sticker2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 22.5vw;
+    left: 29vw;
+
+
+}
+
+.background-image>#sticker3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 28vw;
+    left: 49vw;
+}
+
+.background-image>#sticker4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 26.6vw;
+    left: 62.1vw;
+
+
+}
+
+.background-image>#sticker5 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16vw;
+    left: 60vw;
+
+
+}
+
+.background-image>#sticker6 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16.5vw;
+    left: 66vw;
+
+}
+
+div>#cards {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    display: block;
+    margin-bottom: 20px;
+    max-width: 90%;
+
+}
+
+.card-body {
+    background-color: antiquewhite;
+
+}
+
+
+.card-body>.card-title {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.card-body>.card-subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-body>.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+#cards {
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    .background-image {
+        height: 60vw;
+
+    }
+
+    .background-image>#sticker1 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 27vw;
+        left: 35vw;
+
+
+    }
+
+    .background-image>#sticker2 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 27vw;
+        left: 22vw;
+
+
+    }
+
+    .background-image>#sticker3 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 35vw;
+        left: 47.5vw;
+
+
+    }
+
+    .background-image>#sticker4 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 33vw;
+        left: 64vw;
+
+
+    }
+
+    .background-image>#sticker5 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 21vw;
+        left: 61vw;
+
+
+    }
+
+    .background-image>#sticker6 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 21vw;
+        left: 69vw;
+
+    }
+
+
+    #cards {
+        width: 100%;
+    }
+
+    .card-body {
+        width: 100%;
+    }
+
+    .card-text {
+        font-size: 135px;
+    }
+}

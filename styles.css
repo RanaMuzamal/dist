@@ -4,10 +4,11 @@
 
 .background-image {
     background-image: url("./WEBSITE-BANNER.png");
-    width: 100%;
+    width: 89%;
     height: 45vw;
+    margin-top: auto;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -16,7 +17,8 @@
     height: 20px;
     position: absolute;
     top: 23vw;
-    left: 40vw;
+    left: 33vw;
+
 }
 
 .background-image>#sticker2 {
@@ -24,9 +26,7 @@
     height: 20px;
     position: absolute;
     top: 22.5vw;
-    left: 29vw;
-
-
+    left: 22vw;
 }
 
 .background-image>#sticker3 {
@@ -34,84 +34,77 @@
     height: 20px;
     position: absolute;
     top: 28vw;
-    left: 49vw;
+    left: 44vw;
 }
 
 .background-image>#sticker4 {
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 26.6vw;
-    left: 62.1vw;
-
-
+    top: 26.5vw;
+    left: 58vw;
 }
 
 .background-image>#sticker5 {
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 16vw;
-    left: 60vw;
-
-
+    top: 15vw;
+    left: 57vw;
 }
 
 .background-image>#sticker6 {
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 16.5vw;
-    left: 66vw;
-
+    top: 15.5vw;
+    left: 62.5vw;
 }
 
 div>#cards {
     display: flex;
     margin: 0 auto;
     margin-top: 20px;
-
+    width: 50%;
+    object-fit: cover;
     display: block;
     margin-bottom: 20px;
-    max-width: 90%;
-
 }
 
 .card-body {
     background-color: antiquewhite;
+
 
 }
 
 
 .card-body>.card-title {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 .card-body>.card-subtitle {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 26px;
     text-align: center;
 }
 
 .card-body>.card-text {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 25px;
 }
 
-#cards {
-    width: 40%;
-}
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 370px) {
     .background-image {
         height: 60vw;
 
     }
 
-    .background-image>#sticker1 {
+    /* .background-image>#sticker1 {
         width: 20px;
         height: 20px;
         position: absolute;
@@ -168,15 +161,19 @@ div>#cards {
         top: 21vw;
         left: 69vw;
 
-    }
+    } */
 
 
     #cards {
-        width: 100%;
+        width: 40%;
     }
 
-    .card-body {
-        width: 100%;
+    /* .card-body {
+        width: 70%;
+    } */
+
+    .card-body>.card-title {
+        font-size: 30px;
     }
 
     .card-text {

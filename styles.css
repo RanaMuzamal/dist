@@ -5,7 +5,7 @@
 .background-image {
     background-image: url("./WEBSITE-BANNER.png");
     width: 89%;
-    height: 45vw;
+    height: 48vw;
     margin-top: auto;
     background-position: center;
     background-size: cover;
@@ -16,7 +16,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 23vw;
+    top: 24vw;
     left: 33vw;
 
 }
@@ -25,7 +25,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 22.5vw;
+    top: 23.5vw;
     left: 22vw;
 }
 
@@ -33,7 +33,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 28vw;
+    top: 29.5vw;
     left: 44vw;
 }
 
@@ -41,7 +41,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 26.5vw;
+    top: 27.6vw;
     left: 58vw;
 }
 
@@ -49,7 +49,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 15vw;
+    top: 16.5vw;
     left: 57vw;
 }
 
@@ -57,14 +57,14 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 15.5vw;
+    top: 17.5vw;
     left: 62.5vw;
 }
 
 div>#cards {
     display: flex;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: -15px;
     width: 50%;
     object-fit: cover;
     display: block;
